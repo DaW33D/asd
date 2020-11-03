@@ -6,3 +6,14 @@ body {
 }
 
 * {color:white}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+td {
+    margin-right: ;
+    margin-left: ;
+}
