@@ -13,7 +13,8 @@ table {
     margin-top: 10px;
 }
 
-td {
-    margin-right: ;
-    margin-left: ;
+h1 {
+    text-align: center;
 }
+
+td {padding: 10px}
