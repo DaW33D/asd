@@ -1,0 +1,13 @@
+h1 {font-size: 50px;
+    text-align: center;
+    color: gray}
+
+a {text-decoration: none;
+   font-size: 30px;
+   margin-left: 20px;
+   color:gray}
+
+a:hover {text-decoration: underline;
+         color:aqua}
+
+* {font-family: gabriola}
