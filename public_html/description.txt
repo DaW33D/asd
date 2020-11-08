@@ -1,3 +1,2 @@
-1.weboldal icon
-2. background
-3.
+Ez a project a járművekről szól.
+Készítette Kele Loránd, Zsebők Dávid és Németh Csongor.
