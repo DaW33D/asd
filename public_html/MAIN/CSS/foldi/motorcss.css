@@ -1,13 +1,26 @@
 h1 {font-size: 50px;
     text-align: center;
-    color: gray}
+    color: gray;
+    text-decoration: underline}
 
 a {text-decoration: none;
    font-size: 30px;
-   margin-left: 20px;
+   margin-left: 2%;
    color:gray}
 
 a:hover {text-decoration: underline;
          color:aqua}
 
 * {font-family: gabriola}
+
+#box {border: 4px white solid;
+      border-radius: 25px}
+
+h2 {font-size: 35px;
+    color: gray;
+    margin-left:  5%;
+    text-decoration: underline}
+
+img {margin-left: auto;
+     margin-right: auto;
+     display:block}
