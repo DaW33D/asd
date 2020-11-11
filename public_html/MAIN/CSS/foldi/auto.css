@@ -29,8 +29,8 @@ p {color: white;
    font-size: 30px}
 
 img#img {margin-left: auto;
-     margin-right: auto;
-     display: block;}
+         margin-right: auto;
+         display: block;}
 
 table {color: white;
        border-collapse: collapse;
@@ -52,4 +52,6 @@ div {border: 4px white solid;
 .big {font-size: 40px;
       text-decoration: underline}
 
-ul {}
+.img {display: block;
+      margin-left: auto;
+      margin-right: auto}
