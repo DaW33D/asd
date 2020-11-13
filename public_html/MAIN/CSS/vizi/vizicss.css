@@ -1,9 +1,5 @@
-table{
-    margin-left: auto;
-    margin-right: auto;
-}
 h1{
-    padding: 2%;
+    padding: 10%;
 }
 
 a{
@@ -15,7 +11,10 @@ h3{
     text-align: left;
     margin-left: 2%;
 }
-td{
-    padding-right: 10%;
-    padding-left: 10%;
+table {
+  border-collapse: collapse;
+  margin: 6px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
 }
