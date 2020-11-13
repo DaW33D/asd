@@ -1,4 +1,21 @@
 table{
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
+}
+h1{
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+h3{
+    text-align: left;
+    margin-left: 2%;
+}
+td{
+    padding-right: 10%;
+    padding-left: 10%;
 }
