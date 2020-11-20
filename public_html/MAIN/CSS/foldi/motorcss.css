@@ -1,17 +1,28 @@
-h1 {font-size: 50px;
+@font-face {font-family: hphp;
+            src: url("OL.ttf")}
+
+body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
+
+h1 {font-size: 70px;
     text-align: center;
-    color: gray;
+    color: #00F00F;
     text-decoration: underline}
 
 a {text-decoration: none;
-   font-size: 30px;
-   margin-left: 2%;
-   color:black}
+   font-size: 40px;
+   color: brown;
+   text-align: center;padding: 10px;             
+   border: blue 2px solid;
+   display: inline-block;
+   width: 150px;
+   height: 32px;
+   background:linear-gradient(135deg, #ccd1d9 0%,#8f99a7 100%);
+   margin-bottom: 20px}
 
 a:hover {text-decoration: underline;
-         color:aqua}
+         color: red}
 
-* {font-family: gabriola}
+* {font-family: hphp}
 
 #box {border: 4px white solid;
       border-radius: 25px}
@@ -28,7 +39,7 @@ img {margin-left: auto;
 #lor {border: 5px #990033 solid;
       border-radius: 25px;
       color:white;
-      font-size: 30px;
+      font-size: 50px;
       background-color: red;
       text-align: center;
       margin-left: auto;
@@ -37,5 +48,5 @@ img {margin-left: auto;
       margin-top: 10px}
 
 p {color: yellow;
-   font-size:25px;
+   font-size: 40px;
    margin-left: 2%}
