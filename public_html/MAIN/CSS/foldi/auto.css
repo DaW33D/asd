@@ -1,17 +1,25 @@
+@font-face {font-family: hphp;
+            src: url("RDV.ttf")}
+
 h1 {font-size: 100px;
     text-align: center;
     color: white;
     text-decoration: underline}
 
 a {text-decoration: none;
-   font-size: 50px;
+   font-size: 30px;
    color: white;
-   margin-left: 20px}
+   text-align: center;padding: 10px;             
+   border: blue 2px solid;
+   display: inline-block;
+   width: 150px;
+   height: 50px;
+   background:linear-gradient(135deg, #5b247a 0%,#1bcedf 100%);}
 
 a:hover {color:aqua;
          text-decoration: underline}
 
-* {font-family: gabriola}
+* {font-family: hphp}
 
 h2 {color: white;
     text-decoration: underline;
