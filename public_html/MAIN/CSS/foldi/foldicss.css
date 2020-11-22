@@ -1,5 +1,8 @@
+@font-face {font-family: hphp;
+            src: url("DPB.ttf")}
+
 * {color: white;
-   font-family: gabriola;}
+   font-family: hphp;}
 
 h1 {font-size: 50px;
     text-decoration: underline;
@@ -7,12 +10,25 @@ h1 {font-size: 50px;
 
 h2 {font-size: 40px;}
 
-a {text-decoration: none;
-   font-size: 50px;
-   margin-left: 20px;}
+#a {text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-align: center;             
+    border: blue 2px solid;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background:linear-gradient(135deg, #fb0000 0%,#ffed00 100%);}
 
 a:hover {color: aqua;
          text-decoration: underline;}
+
+a:active {color:red}
+
+#a:active {background-color: blue;
+           color: red}
+
+#a:hover {color: aqua}
 
 img {margin-left: auto;
      margin-right: auto;

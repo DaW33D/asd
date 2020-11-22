@@ -55,7 +55,8 @@ td {border: 2px white solid;
 div {border: 4px white solid;
      border-radius: 25px;
      padding: 10px;
-     margin: 10px}
+     margin: 10px;
+     box-shadow: 4px 4px 4px 4px black}
 
 .big {font-size: 40px;
       text-decoration: underline}
