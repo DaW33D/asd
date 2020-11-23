@@ -1,12 +1,29 @@
-* {font-family: gabriola}
+@font-face {font-family: neon;
+            src: url(DK.otf)}
+
+* {font-family: neon}
 
 h1 {color: white;
     font-size: 50px;
-    text-align: center}
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100px}
 
 a {text-decoration: none;
    color: white;
-   font-size: 30px}
+   font-size: 30px;
+   border: 2px white solid;;
+   padding: 5px;
+   border-radius: 10px;
+   margin: 10px;
+   background-color: blue;
+   background:linear-gradient(135deg, #b040de 0%,#83f4d9 100%);}
 
 a:hover {color: aqua;
          text-decoration: underline}
+
+a:active {color: red}
+
+img {display: block;
+     margin-left: auto;
+     margin-right: auto}

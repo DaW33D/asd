@@ -1,11 +1,15 @@
+@font-face {font-family: vas;
+            src: url("vas.ttf")}
+
 body {
     margin: 0px;
     border: 0px;
     padding: 0px;
-    
+
 }
 
-* {color:white}
+* {color:white;
+   font-family: vas}
 
 table {
     margin-left: auto;
@@ -15,6 +19,7 @@ table {
 
 h1 {
     text-align: center;
+    font-size: 50px
 }
 
 td {padding: 10px}
