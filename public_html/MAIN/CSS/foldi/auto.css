@@ -1,9 +1,11 @@
 @font-face {font-family: hphp;
-            src: url("RDV.ttf")}
+            src: url("OL.ttf")}
+
+body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
 h1 {font-size: 100px;
     text-align: center;
-    color: white;
+    color: lime;
     text-decoration: underline}
 
 a {text-decoration: none;
@@ -12,8 +14,8 @@ a {text-decoration: none;
    text-align: center;padding: 10px;             
    border: blue 2px solid;
    display: inline-block;
-   width: 150px;
-   height: 50px;
+   width: 100px;
+   height: 30px;
    background:linear-gradient(135deg, #5b247a 0%,#1bcedf 100%);}
 
 a:hover {color:aqua;
@@ -21,19 +23,19 @@ a:hover {color:aqua;
 
 * {font-family: hphp}
 
-h2 {color: white;
+h2 {color: yellow;
     text-decoration: underline;
     font-size: 50px;
     margin-left: 50px}
 
-#box {color: white;
+#box {color: yellow;
       font-size: 30px;
       border: 5px #990033 solid;
       border-radius: 25px;
       padding: 5px;
       background-color: red}
 
-p {color: white;
+p {color: yellow;
    font-size: 30px}
 
 img#img {margin-left: auto;

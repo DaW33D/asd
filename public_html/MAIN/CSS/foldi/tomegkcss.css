@@ -1,29 +1,46 @@
 @font-face {font-family: neon;
-            src: url(DK.otf)}
+            src: url(OL.ttf)}
+
+body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
 * {font-family: neon}
 
-h1 {color: white;
+h1 {color: lime;
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
     font-size: 100px}
 
-a {text-decoration: none;
-   color: white;
-   font-size: 30px;
-   border: 2px white solid;;
-   padding: 5px;
-   border-radius: 10px;
-   margin: 10px;
-   background-color: blue;
-   background:linear-gradient(135deg, #b040de 0%,#83f4d9 100%);}
+a#tomeg {text-decoration: none;
+         color: white;
+         font-size: 30px;
+         border: 2px white solid;;
+         padding: 5px;
+         margin: 10px;
+         background-color: blue;
+         background:linear-gradient(135deg, #b040de 0%,#83f4d9 100%);}
 
-a:hover {color: aqua;
-         text-decoration: underline}
+a#tomeg:hover {color: aqua;
+               text-decoration: underline}
 
-a:active {color: red}
+a#tomeg:active {color: red}
 
 img {display: block;
      margin-left: auto;
      margin-right: auto}
+
+h2 {color: yellow;
+    font-size: 50px;
+    margin-left: 2%;
+    text-decoration: underline}
+
+ul {color: yellow;
+    font-size: 30px;
+    margin-left: 2%}
+
+a.tomeg {color:yellow;
+         text-decoration: none}
+
+a.tomeg:hover {color:aqua}
+
+a.tomeg:active {color:red}
