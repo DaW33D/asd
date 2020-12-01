@@ -2,7 +2,8 @@
             src: url("vas.ttf")}
 
 body {
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     border: 0px;
     padding: 0px;
 }
@@ -17,18 +18,15 @@ h1 {
 
 a {text-decoration: none}
 
-img {display: block;
-     width: calc(32.6666% - 10px);
+img {display: inline;
+     width: calc(30% - 10px);
      float: left ;
-     margin-right: 2%}
+     margin: 10px;}
 
-img:last-child {margin-right: 0%}
-
-p {display: inline-block;
-   font-size: 50px}
-
-#legi {margin-left: 12%}
-
-#foldi {margin-left: 27%}
-
-#vizi {margin-left:29%}
+p {display: inline;
+   font-size: 50px;
+   width: calc(30% - 10px);
+   float: left ;
+   margin-left: auto;
+   margin-right: auto;
+   }
