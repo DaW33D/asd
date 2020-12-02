@@ -8,13 +8,15 @@ body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);
 * {font-family: hphp;}
 
 h1 {color: lime;
-    font-size: 50px;
-    text-align: center;}
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;}
 
 a {text-decoration: none;
    font-size: 40px;
    color: brown;
-   text-align: center;padding: 10px;             
+   text-align: center;
+   padding: 10px;             
    border: blue 2px solid;
    display: inline-block;
    width: 150px;
@@ -26,3 +28,12 @@ a:hover {text-decoration: underline;
          color: red}
 
 a:active {color:yellow}
+
+img {display: block;
+     margin-left: auto;
+     margin-right: auto;}
+
+h2 {color: yellow;
+    font-size: 50px;
+    margin-left: 2%;
+    text-decoration: underline}
