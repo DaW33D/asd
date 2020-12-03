@@ -1,19 +1,24 @@
 @font-face {font-family: hphp;
-            src: url("OL.ttf")}
+            src: url("OL.ttf");}
+
+@font-face {font-family: hp;
+            src: url("sz.otf");}
 
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);
       background-repeat: no-repeat;
       background-size: cover;}
 
-* {font-family: hphp;}
+* {font-family: hp;}
 
 h1 {color: lime;
     font-size: 70px;
     text-align: center;
-    text-decoration: underline;}
+    text-decoration: underline;
+    margin-top: 0px;}
 
 a {text-decoration: none;
    font-size: 40px;
+   font-family: hphp;
    color: brown;
    text-align: center;
    padding: 10px;             
@@ -22,12 +27,12 @@ a {text-decoration: none;
    width: 150px;
    height: 32px;
    background:linear-gradient(135deg, #ccd1d9 0%,#8f99a7 100%);
-   margin-bottom: 20px}
+   margin-bottom: 20px;}
 
 a:hover {text-decoration: underline;
-         color: red}
+         color: red;}
 
-a:active {color:yellow}
+a:active {color:yellow;}
 
 img {display: block;
      margin-left: auto;
@@ -36,4 +41,18 @@ img {display: block;
 h2 {color: yellow;
     font-size: 50px;
     margin-left: 2%;
-    text-decoration: underline}
+    text-decoration: underline;}
+
+p {color: yellow;
+   font-size: 30px;
+   width: 50%;
+   margin-left: 2%;}
+
+#img {float: right;
+      width:50%;
+      margin-left: 10px;}
+
+#box {border: 4px white solid;
+      border-radius: 25px;
+      box-shadow: 4px 4px 4px 4px black;
+      margin: 10px}

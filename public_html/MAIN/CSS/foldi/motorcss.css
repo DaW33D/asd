@@ -1,6 +1,9 @@
 @font-face {font-family: hphp;
             src: url("OL.ttf")}
 
+@font-face {font-family: hp;
+            src: url("sz.otf")}
+
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
 h1 {font-size: 70px;
@@ -10,6 +13,7 @@ h1 {font-size: 70px;
 
 a {text-decoration: none;
    font-size: 40px;
+   font-family: hphp;
    color: brown;
    text-align: center;padding: 10px;             
    border: blue 2px solid;
@@ -17,14 +21,15 @@ a {text-decoration: none;
    width: 150px;
    height: 32px;
    background:linear-gradient(135deg, #ccd1d9 0%,#8f99a7 100%);
-   margin-bottom: 20px}
+   margin-bottom: 20px;
+   font-family: hphp;}
 
 a:hover {text-decoration: underline;
          color: red}
 
 a:active {color:yellow}
 
-* {font-family: hphp}
+* {font-family: hp}
 
 #box {border: 4px white solid;
       border-radius: 25px;

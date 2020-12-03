@@ -1,4 +1,7 @@
 @font-face {font-family: neon;
+            src: url(sz.otf)}
+
+@font-face {font-family: hp;
             src: url(OL.ttf)}
 
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
@@ -12,6 +15,7 @@ h1 {color: lime;
     font-size: 100px}
 
 a#tomeg {text-decoration: none;
+         font-family: hp; 
          color: white;
          font-size: 30px;
          border: 2px white solid;;
@@ -36,11 +40,18 @@ h2 {color: yellow;
 
 ul {color: yellow;
     font-size: 30px;
-    margin-left: 2%}
+    margin-left: 2%;}
+
+li {padding: 10px;}
 
 a.tomeg {color:yellow;
          text-decoration: none}
 
-a.tomeg:hover {color:aqua}
+a.tomeg:hover {color:aqua;}
 
-a.tomeg:active {color:red}
+a.tomeg:active {color:red;}
+
+#box {border: 4px white solid;
+      border-radius: 25px;
+      box-shadow: 4px 4px 4px 4px black;
+      margin: 10px}
