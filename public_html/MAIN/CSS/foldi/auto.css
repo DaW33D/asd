@@ -2,7 +2,7 @@
             src: url("sz.otf");}
 
 @font-face {font-family: hpf;
-            src: url("OL.ttf");}
+            src: url("kdv.ttf");}
 
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
@@ -52,28 +52,20 @@ td {border: 2px white solid;
 
 .imgg {float: right;}
 
-#bokszi {border: 2px solid black;
-         background:linear-gradient(135deg, #cd5029 0%,#df7f1a 100%);
-         position: sticky;
-         top: 0px;
-         border-radius: 10px;}
-
-a {text-decoration: none;
-   color: white;
-   font-family: hpf;
-   font-size: 50px;
-   text-decoration: underline;}
-
-li {display: inline-block;
-    padding: 5px;}
-
 ul {text-align: center;}
-
-a:hover {color: aqua;}
-
-a:active {color: red;}
 
 #box {background-color: red;
       border: 4px #960032 solid;
       padding: 10px;
       border-radius: 25px;}
+
+#back {color: orange;
+        font-family: hpf;
+        font-size: 60px;
+        position: sticky;
+        top: 10px;
+        text-decoration: none;}
+
+#back:hover {color: aqua;}
+
+#back:active {color: red;}

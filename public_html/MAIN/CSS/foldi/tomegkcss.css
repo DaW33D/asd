@@ -2,7 +2,7 @@
             src: url(sz.otf)}
 
 @font-face {font-family: hp;
-            src: url(OL.ttf)}
+            src: url(kdv.ttf)}
 
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
@@ -13,21 +13,6 @@ h1 {color: lime;
     text-align: center;
     text-decoration: underline;
     font-size: 100px}
-
-a#tomeg {text-decoration: none;
-         font-family: hp; 
-         color: white;
-         font-size: 30px;
-         border: 2px white solid;;
-         padding: 5px;
-         margin: 10px;
-         background-color: blue;
-         background:linear-gradient(135deg, #b040de 0%,#83f4d9 100%);}
-
-a#tomeg:hover {color: aqua;
-               text-decoration: underline}
-
-a#tomeg:active {color: red}
 
 img {display: block;
      margin-left: auto;
@@ -44,8 +29,7 @@ ul {color: yellow;
 
 li {padding: 10px;}
 
-a.tomeg {color:yellow;
-         text-decoration: none}
+a.tomeg {color:yellow;}
 
 a.tomeg:hover {color:aqua;}
 
@@ -54,4 +38,15 @@ a.tomeg:active {color:red;}
 #box {border: 4px white solid;
       border-radius: 25px;
       box-shadow: 4px 4px 4px 4px black;
-      margin: 10px}
+      margin: 10px;}
+
+#back {color: orange;
+        font-family: hp;
+        font-size: 60px;
+        position: sticky;
+        top: 10px;
+        text-decoration: none;}
+
+#back:hover {color: aqua;}
+
+#back:active {color: red;}

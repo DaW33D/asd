@@ -2,7 +2,7 @@
             src: url("OL.ttf")}
 
 @font-face {font-family: hp;
-            src: url("sz.otf")}
+            src: url("kdv.ttf")}
 
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
@@ -10,24 +10,6 @@ h1 {font-size: 70px;
     text-align: center;
     color: #00F00F;
     text-decoration: underline}
-
-a {text-decoration: none;
-   font-size: 40px;
-   font-family: hphp;
-   color: brown;
-   text-align: center;padding: 10px;             
-   border: blue 2px solid;
-   display: inline-block;
-   width: 150px;
-   height: 32px;
-   background:linear-gradient(135deg, #ccd1d9 0%,#8f99a7 100%);
-   margin-bottom: 20px;
-   font-family: hphp;}
-
-a:hover {text-decoration: underline;
-         color: red}
-
-a:active {color:yellow}
 
 * {font-family: hp}
 
@@ -60,3 +42,14 @@ img {margin-left: auto;
 p {color: yellow;
    font-size: 40px;
    margin-left: 2%}
+
+#back {color: orange;
+        font-family: hp;
+        font-size: 60px;
+        position: sticky;
+        top: 10px;
+        text-decoration: none;}
+
+#back:hover {color: aqua;}
+
+#back:active {color: red;}
