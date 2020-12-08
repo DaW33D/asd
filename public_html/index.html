@@ -5,21 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="MAIN/CSS/indexcss.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="MAIN/img/index/icon.png">
-        <style>body {background-image: url("MAIN/img/index/bcgrnd.jpg")}</style>
+        <style>body {background-image: url("MAIN/img/index/bcgrnd.jpg")}</style>     
+        <script src="load.js" type="text/javascript"></script>
+        
     </head>
-    <body>
-        <table>
-            <tbody>
-                <tr>
-                    <td><a href="MAIN/HTML/legi/index.html"><p id="legi">Légi</p></a></td>
-                    <td><a href="MAIN/HTML/foldi/foldi.html"><p id="foldi">Földi</p></a></td>
-                    <td><a href="MAIN/HTML/vizi/vizi.html"><p id="vizi">Vízi</p></a></td>                     
-                </tr>
-            </tbody>
-        </table>
-                
-        <a href="MAIN/HTML/legi/index.html"><img src="MAIN/img/index/indexlegi.jpg" alt="legi" title="légi"/></a>
-        <a href="MAIN/HTML/foldi/foldi.html"><img  src="MAIN/img/index/indexfoldi.jpg" alt="foldi" title="földi"/></a>
-        <a href="MAIN/HTML/vizi/vizi.html"><img  src="MAIN/img/index/indexvizi.jpg" alt="vizi" title="vízi"/></a>
+    <body onload="loadHTML('menu.html', 'asd');">
+        <div id="asd">Menü...</div>
     </body>
 </html>

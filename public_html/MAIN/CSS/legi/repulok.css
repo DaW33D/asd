@@ -1,5 +1,11 @@
+@font-face {font-family: military;
+            src: url("../../fonts/legi/military.ttf")}
+
+
+
+
 td {
-    font-family: fantasy;
+    font-family: military;
     font-size: 50px;
     
 }
