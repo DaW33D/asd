@@ -1,8 +1,8 @@
 @font-face {font-family: hphp;
-            src: url("OL.ttf")}
+            src: url("kdv.ttf")}
 
 @font-face {font-family: hp;
-            src: url("kdv.ttf")}
+            src: url("sz.otf")}
 
 body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);}
 
@@ -44,7 +44,7 @@ p {color: yellow;
    margin-left: 2%}
 
 #back {color: orange;
-        font-family: hp;
+        font-family: hphp;
         font-size: 60px;
         position: sticky;
         top: 10px;
