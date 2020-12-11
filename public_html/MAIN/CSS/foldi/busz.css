@@ -1,5 +1,5 @@
 @font-face {font-family: hphp;
-            src: url("OL.ttf");}
+            src: url("kdv.ttf");}
 
 @font-face {font-family: hp;
             src: url("sz.otf");}
@@ -38,3 +38,14 @@ p {color: yellow;
       border-radius: 25px;
       box-shadow: 4px 4px 4px 4px black;
       margin: 10px}
+
+#back {color: orange;
+        font-family: hphp;
+        font-size: 60px;
+        position: sticky;
+        top: 10px;
+        text-decoration: none;}
+
+#back:hover {color: aqua;}
+
+#back:active {color: red;}

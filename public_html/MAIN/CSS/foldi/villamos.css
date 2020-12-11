@@ -1,0 +1,45 @@
+@font-face {font-family: hphp;
+            src: url("kdv.ttf");}
+
+@font-face {font-family: hp;
+            src: url("sz.otf");}
+
+* {font-family: hp;}
+
+#back {color: orange;
+       font-family: hphp;
+       font-size: 60px;
+       position: sticky;
+       top: 10px;
+       text-decoration: none;}
+
+#back:hover {color: aqua;}
+
+#back:active {color: red;}
+
+#box {border: 4px white solid;
+      border-radius: 25px;
+      box-shadow: 4px 4px 4px 4px black;
+      margin: 10px}
+
+body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+img {display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 10px;}
+
+h1 {color: lime;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;}
+
+#def {background-color: red;
+      border: 4px #960032 solid;
+      padding: 10px;
+      border-radius: 25px;
+      color: yellow;
+      font-size: 30px;
+      margin: 10px;}
