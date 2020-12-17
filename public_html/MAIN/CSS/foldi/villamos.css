@@ -29,7 +29,8 @@ body {background:linear-gradient(135deg, #341010 0%,#b03737 100%);
 img {display: block;
      margin-left: auto;
      margin-right: auto;
-     margin-bottom: 10px;}
+     margin-bottom: 10px;
+     border-radius: 25px;}
 
 h1 {color: lime;
     text-align: center;
@@ -43,3 +44,23 @@ h1 {color: lime;
       color: yellow;
       font-size: 30px;
       margin: 10px;}
+
+h2 {color: yellow;
+    font-size: 50px;
+    margin-left: 10px;
+    text-decoration: underline;} 
+
+p {color: yellow;
+   margin-left: 50px;
+   font-size: 30px;}
+
+#villa {float: right;
+        width: 50%;}
+
+#fajta {font-size: 40px;
+        margin-left: 10px;
+        text-decoration: underline;}
+
+li {color: yellow;
+    font-size: 20px;
+    padding: 6px;}
