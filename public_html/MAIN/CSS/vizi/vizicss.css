@@ -36,11 +36,11 @@ p{
 
 a{
     text-decoration: none;
+    font-family: sans-serif;
+    color: black;
 }
 
 .cim{
     font-size: 50px;
-    text-decoration: none;
-    color: black;
 }
 
